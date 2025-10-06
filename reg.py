@@ -22,6 +22,4 @@ print(f"Predicted disease progression for BMI {bmi_input}: {user_prediction[0]:.
 print("\nModel Coefficients:")
 print(f"Coefficient (slope): {model.coef_[0]:.4f}")
 print(f"Intercept: {model.intercept_:.4f}")
-r2 = r2_score(y_test, y_pred)
-print(f"\nCoefficient of Determination (R² score): {r2:.4f}")
 
